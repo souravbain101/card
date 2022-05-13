@@ -1,0 +1,92 @@
+body{
+    color: white;
+    text-align: center;
+    background-color: hsl(217, 54%, 11%);
+    font-family: sans-serif;
+}
+.middle img{
+    height: 20em;
+    width: 312px;
+    margin: 25px 5px;
+    border-radius: 14px;
+}
+.fullcontainer{
+    display: flex;
+    background-color: hsl(216, 50%, 16%);
+    height:600px;
+    width: 350px;
+    position: absolute;
+    left: 40%;
+    top: 18%;
+    border-radius: 20px;
+
+    
+}
+#image{
+    height: 2em;
+    border: 1px solid white;
+    border-radius: 50px;
+    position: absolute;
+    left: 24px;
+    bottom: 18px;
+    display: inline;
+}
+h3{
+    margin: 0px 2px;
+    position: absolute;
+    left: 20px;
+    font-size: 21px;
+}
+p{
+    margin: 35px 23px;
+    text-align: left;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+#ETH{
+    float: left;
+    margin-left: 4px;
+}
+#time{
+    float: right;
+    margin-right: 27px;
+}
+#h3{
+    margin: none;
+    position: absolute;
+    bottom: 25px;
+    right: 35px;
+}
+hr{
+  width: 15em;
+  margin-top: 35px;
+ border-color: hsl(215, 32%, 27%);
+  
+}
+p,#time,#h3{
+   color: hsl(215, 51%, 70%);
+}
+#name{
+    color: white;
+}
+#h3{
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+#ETH{
+    font-size: large;
+    color: hsl(178, 100%, 50%);
+    letter-spacing: 1px;
+}
+#time{
+    font-size: 15px;
+}
+#view{
+float: left;
+margin-left: 20px;
+}
+#clock{
+   position: absolute;
+   right: 100px;
+
+}
